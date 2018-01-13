@@ -21,6 +21,8 @@ body
     float: left;
     width: 600px;
     height: 450px;
+
+    //background: lightgreen;
 }
 
 #update
@@ -63,7 +65,7 @@ p
 
 #about
 {
-    width: 550px;
+    width: 500px;
     height: 350px;
     overflow: auto;
 }
@@ -90,3 +92,25 @@ dt
     font-size: 30px;
 }
 
+#image
+{   
+    position: relative;
+    top: -480px;
+    left: 300px;
+}
+
+#photo
+{
+    position: relative;
+    right: 20px;
+    top: -5px;
+}
+
+#sent_button
+{
+    font-size: 20px;
+    width: 120px;
+    height: 2em;
+    position: relative;
+    top: 5px;
+}
