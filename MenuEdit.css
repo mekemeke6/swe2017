@@ -43,7 +43,7 @@ body
     width: 200px;
     height: 100px;
     position: relative;
-    top: 338px;
+    top: 288px;
 }
 
 #back
@@ -71,6 +71,8 @@ h1
 
 #about
 {
+    //border: 2px solid;
+    //color: blue;
     width: 500px;
     height: 350px;
     overflow: auto;
@@ -99,20 +101,6 @@ dt
     font-size: 30px;
 }
 
-#image
-{   
-    position: relative;
-    top: -480px;
-    left: 300px;
-}
-
-#photo
-{
-    position: relative;
-    right: 20px;
-    top: -5px;
-}
-
 #sent_button
 {
     font-size: 20px;
@@ -121,3 +109,11 @@ dt
     position: relative;
     top: 5px;
 }
+
+#taste
+{
+    position: relative;
+    right: 20px;
+    top: 58px;
+}
+

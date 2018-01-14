@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<title>ふらっとやまだ: 店舗情報</title>  
+<title>ふらっとやまだ: 店舗情報</title>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="Info.css"/>
 </head>
@@ -12,18 +12,33 @@
 
 <div id="title">
 <h1>店舗情報</h1>
-<p>店舗情報の編集が行えます。編集後は、updateボタンを押してください。</p>
+<p>店舗情報の編集が行えます。編集後は、同期ボタンを押してください。</p>
 </div>
 
 <div id="info">
 <form>
 <dl>
 
+<div id="tenpo">
 <dt>店舗名</dt>
 <dd><input id="name" name="tenpo" type="text" id="tenpo" size="50" maxlength="32" /></dd>
+<p>
+</div>
+<div id="phone">
+<dt> 電話番号（例: 1234-56-7890）</dt>
+<dd><input id="num" type="text" name="zip" size="10" maxlength="10" id="zip" />
+</dd>
+<p>
+</div>
+<div id="adress">
+<dt>住所</dt>
+<dd><input id="adre" name="adre" type="text" id="adre" size="50" maxlength="32" />
+</dd>
+</div>
+<p>
 <dt>概要</dt>
 <dd>
-<textarea id="about" name="about" id="about" cols="50" rows="10"></textarea>
+<textarea name="about" id="about" cols="50" rows="10"></textarea>
 </dd>
 </dl>
 </form>
@@ -31,13 +46,25 @@
 
 <div id="update">
 <form action="Info_edit.php" method="post">
-<input id="update_button" type="submit" value="update!" >
+<input id="update_button" type="submit" value="同期" >
 </form>
 </div>
 
 <div id="back">
 <form action="Info_unjump.php" method="post">
-<input id="back_button" type="submit" value="back" >
+<input id="back_button" type="submit" value="戻る" >
+</form>
+</div>
+
+<div id="image">
+<form action="Image_upload.php" method="post" enctype="multipart/form-data">
+<dl>
+<div id="photo">
+<dt>店舗写真</dt>
+<dd>
+<input id="img" name="img" type="file" id="img" size="50" /></dd>
+</dl>
+<input id="sent_button" type="submit" value="画像を保存" />
 </form>
 </div>
 
