@@ -20,7 +20,7 @@ body
 {
     float: left;
     width: 600px;
-    height: 450px;
+    height: 470px;
 
     //background: lightgreen;
 }
@@ -40,7 +40,7 @@ body
     height: 60px;
     width: 200px;
     position: relative;
-    top: -50px;
+    top: -70px;
     left: 300px;
 }
 
@@ -65,8 +65,9 @@ p
 
 #about
 {
+    font-size: 20px;
     width: 500px;
-    height: 350px;
+    height: 180px;
     overflow: auto;
 }
 
@@ -93,7 +94,9 @@ dt
 }
 
 #image
-{   
+{
+    width: 240px;
+    height: 130px;
     position: relative;
     top: -480px;
     left: 300px;
@@ -113,4 +116,22 @@ dt
     height: 2em;
     position: relative;
     top: 5px;
+}
+
+#name
+{
+    width: 150px;
+    font-size: 15px;
+}
+
+#num
+{
+    width: 150px;
+    font-size: 14px;
+}
+
+#adre
+{
+    width: 340px;
+    font-size: 15px;
 }
